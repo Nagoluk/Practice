@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('https://em-uploads.s3.amazonaws.com/profilebg/553541.gif');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button{
+  background: yellow;
+  color: black;
+  outline: none;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+button:disabled{
+  background: lightgray;
 }
